@@ -7,7 +7,7 @@ def lambda_handler(event, context):
     print('received event:')
     print(event)
     
-    sqlFileNames = ['whoQuery.txt', 'sportQuery.sql']
+    sqlFileNames = ['exampleQuery2.txt', 'exampleQuery1.sql']
     outputFileNames = ['whoquery', 'sportquery']
     queriesFolder = 'queries'
     
